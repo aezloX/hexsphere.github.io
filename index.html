@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="animate.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="Ethan'sWebsiteStylesheet.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js">
+        function inViewport($el) {
+            var elH = $el.outerHeight(),
+                H = $(window).height(),
+                r = $el[0].getBoundingClientRect(), t = r.top, b = r.bottom;
+            return Math.max(0, t > 0 ? Math.min(elH, H - t) : (b < H ? b : H));
+        }
+        $(window).on("scroll resize", function () {
+            console.log(inViewport($('#h2'))); // n px in viewport
+        });
+    </script>
+    <style>
+        ul {
+            position: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 2px;
+            overflow: hidden;
+            background-color: #318BA2;
+            z-index: 7;
+        }
+
+        li {
+            float: none;
+            color: #FFFFFF;
+            font-family: 'Poiret One', cursive;
+            font-weight: 400;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background-color: whitesmoke;
+                }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover, .dropdown:hover .dropbtn {
+                    background-color: whitesmoke;
+                }
+
+            li.dropdown {
+                display: inline-block;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: whitesmoke;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: whitesmoke;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+
+    <style>
+        .lowerParagraph {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+        }
+    </style>
+    <style>
+        .button {
+            font-family: 'Poiret One', cursive;
+            font-weight: 800;
+            background-color: black;
+            border: none;
+            color: black;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button_black {
+            background-color: white;
+            color: black;
+            border: 2px solid #000000;
+            border-radius: 2px;
+        }
+
+            .button_black:hover {
+                background-color: #000000;
+                color: white;
+            }
+    </style>
+    <style>
+        iframe {
+            backface-visibility: visible;
+            transition: all .2s ease-out;
+        }
+
+            iframe:hover {
+                box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
+                transform: scale(1.02);
+            }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><img class="svg-image" src="WebsiteLogoEthan.svg" alt="Website Logo" /></li>
+    </ul>
+    <ul>
+        <li id="dropdown-header-left" class="dropdown">
+            <a href="#" class="dropbtn">Home</a>
+            <div class="dropdown-content">
+                <a href="#contact">Contact Me</a>
+            </div>
+        </li>
+        <li class="header-left"><a href="#accounts">My Accounts</a></li>
+        <li class="header-left"><a href="#contests">Contests</a></li>
+        <li class="header-left"><a href="#games">My Games</a></li>
+    </ul>
+    <div id="png-image" style="background-image: url(HexsphereGamesandGraphicDesigns.png) ; margin-bottom:0; z-index:-1" class="jumbotron">
+        <div style="height:585px" class="container text-center">
+        </div>
+    </div>
+    <div style="background-color:#FFFFFF; padding-top:0; margin-bottom:0" class="jumbotron">
+        <div style="height:25em;" class="container text-center">
+            <script>
+                $(".box").inViewport(function (px) {
+                    if (px) $(this).addClass("triggeredCSS3");
+                });
+            </script>
+            <h2 id="text" class="lowerParagraph animated fadeInDown">About Me</h2>
+            <p class="lowerParagraph animated fadeInLeft" style="float:left; text-align: left;">
+                <strong>Upcoming projects:</strong><br>
+                <br>
+                1. HeliumOS (25% Done)<br>
+                2. Diamond Dash! (2% Done)<br>
+                3. Logo Contest 2.0! [WILL BE SHARED ON MAY 11th] (75% Done)<br>
+                4.[ON HOLD] Christmas Run! (6% Done)<br>
+            </p>
+            <p class="lowerParagraph animated fadeInRight" style="text-align:right; right: 0px">
+                <strong>The Applications I use to make my projects:</strong><br>
+                <br>
+                Affinity Designer: Graphic design software for mac.<br>
+                There is a free trial but the full version is $50.00.<br>
+                (They are also making a Windows beta version so if you want Affinity Designer on your windows PC you can have it!)<br>
+            <p>
+        </div>
+    </div>
+    <hr class="styled-hr" style="width:80%; height:32%">
+    <div style="background-color:#FFFFFF; padding-top:0; margin-bottom:0" class="jumbotron">
+        <div style="height:auto;" class="container text-center">
+            <h2 id="text" class="lowerParagraph animated fadeInDown">Some of my projects</h2>
+            <iframe style="margin-bottom:50px" allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/98291132/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <iframe style="margin-bottom:50px" allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/95028748/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <iframe style="margin-bottom:50px" allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/90820894/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <iframe style="margin-bottom:50px" allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/91884285/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <a class="button button_black animated zoomInDown" href="http://www.w3schools.com/html/">See All of My Projects</a>
+        </div>
+    </div>
+</body>
+</html>
