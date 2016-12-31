@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
+.svg-image {
+    display: block;
+    width: 70em;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    float: right;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
+#png-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    z-index: -3;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
+.header-left {
+    float: right;
+}
+
+#dropdown-header-left {
+    float: right;
+    right: 25em;
+    z-index: 1;
+}
+
+.parallax {
+    background-image: url("backgroundImage.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageText {
+    font-family:    'Montserrat', sans-serif;
+    font-size:      700%;
+    color:          #ffffff;
+    text-transform: uppercase; 
+    text-align:     center;
+    margin-top:     18%;
+}
+
+.TextItem {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            background-color: black;
+            border: none;
+            border: none;
+            color: black;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+            .button:hover {
+                text-decoration: none;
+            }
+
+                .button_black {
+                    background-color: white;
+                    color: black;
+                    border: 2px solid #000000;
+                    border-radius: 2px;
+                }
+
+                    .button_black:hover {
+                        background-color: #000000;
+                        color: white;
+
+                }

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="animate.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="Main.css" rel="stylesheet" type="text/css">
+    <!--<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js">
+        function inViewport($el) {
+            var elH = $el.outerHeight(),
+                H = $(window).height(),
+                r = $el[0].getBoundingClientRect(), t = r.top, b = r.bottom;
+            return Math.max(0, t > 0 ? Math.min(elH, H - t) : (b < H ? b : H));
+        }
+        $(window).on("scroll resize", function () {
+            console.log(inViewport($('#h2'))); // n px in viewport
+        });
+    </script>-->
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 2px;
+            overflow: hidden;
+            background-color: #318BA2;
+            z-index: 7;
+        }
+
+        li {
+            float: left;
+            color: #FFFFFF;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 170%;
+            }
+                li img {
+                    float: center;
+                }
+
+                li a:hover {
+                    background-color: whitesmoke;
+                    text-decoration: none;
+                }
+    </style>
+
+    <style>
+        .lowerParagraph {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+        }
+    </style>
+    <style>
+        iframe {
+            backface-visibility: visible;
+            transition: all .2s ease-out;
+        }
+
+            iframe:hover {
+                box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
+                transform: scale(1.02);
+            }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><img class="svg-image" src="Ethan's%20website%20logo.svg" alt="Website Logo"/></li>
+    </ul>
+    <ul>
+        <li class="header-right"><a href="#" class="dropbtn">Home</a></li>
+        <li class="header-right"><a href="#games">My Games</a></li>
+    </ul>
+    <div id="jpg-image" class="parallax">
+        <div style="height: 700px; float:center" class="container">
+            <p class="imageText" style="align:center">
+                Hexsphere Games &amp; Graphic Designs
+            </p>
+        </div>
+    </div>
+    <div style="background-color:#FFFFFF; padding-top:0; margin-bottom:0" class="jumbotron">
+        <div style="height:25em;" class="container text-center">
+            <script>
+                $(".box").inViewport(function (px) {
+                    if (px) $(this).addClass("triggeredCSS3");
+                });
+            </script>
+            <h2 id="text" class="lowerParagraph animated fadeInDown">ABOUT ME</h2>
+            <p class="lowerParagraph animated fadeInLeft" style="float:center; text-align: center;">
+                <br><strong>My Bio</strong>
+                <br>
+                <br>
+                Ethan Anderson, also known as Hexsphere, is a 12-year-old Indy Game Developer and Ui Graphic Designer. He is an indie game developer making games in Scratch! He makes graphic art &amp; Ui designs in Affinity Designer. He is a Behance and YouTube user. He is the winner of Remotion’s logo contest!<br>
+            </p>
+            <p class="lowerParagraph animated fadeInRight" style="text-align:center; right: 0px">
+                <strong>Behind the Account</strong>
+                <br>
+                <br>
+                When I first started Scratch my account was a total failure, so I decided to create a new account, so after a lot of thought, I decided on the name “Hexsphere”. It is now a very successful account, with 210+ followers! :D<br>
+            <p>
+        </div>
+    </div>
+    <hr class="styled-hr" style="width:80%; height:32%">
+    <div style="background-color:#FFFFFF; padding-top:0; margin-bottom:0" class="jumbotron">
+        <div style="height: auto" class="container text-center">
+            <h2 id="text" class="lowerParagraph animated fadeInDown">Some of my projects</h2>
+            <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/123764406/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/93021515/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/90820894/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/91884285/?autostart=false" frameborder="0" allowfullscreen></iframe>
+            <a class="button button_black animated zoomInDown" href="#games">See All of My Projects</a>
+        </div>
+    </div>
+</body>
+</html>
