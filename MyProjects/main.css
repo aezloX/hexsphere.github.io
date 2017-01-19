@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
-#welcome {background-color: #56445D; padding-top:0; margin-bottom:0}
-#welcome h2 {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #70ff93}
-#welcome p {font-family: 'Montserrat', sans-serif; color: #70ff93}
+.aboutMe {background-color: #56445D; padding-top:0; margin-bottom:0}
+
+.myProjects {background-color: #56445D; padding-top:0; margin-bottom:0}
 
 body {
   margin: 0px;
@@ -20,6 +20,18 @@ header {
 header img {
   height: 58px;
 }
+
+.sectionHeaderText {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #70ff93
+}
+
+.sectionText {
+    font-family: 'Montserrat', sans-serif;
+    color: #70ff93
+}
+
 
 .svg-image {
     display: block;
@@ -74,16 +86,8 @@ header img {
 }
 
 a {
-    text-decoration: none;
-    backface-visibility: visible;
-    transition: all .2s ease-out;
+    text-decoration: none
 }
-
-    a:hover {
-        box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
-        transform: scale(1.02);
-        text-decoration: none;
-            }
 
 .button {
             font-family:         'Montserrat', sans-serif;
