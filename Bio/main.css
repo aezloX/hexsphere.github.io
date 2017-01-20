@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
-.aboutMe {background-color: #56445D; padding-top:0; margin-bottom:0}
+#aboutMe {background-color: #56445D; padding-top:0; margin-bottom:0}
+#aboutMe h2 {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #70ff93}
+#aboutMe p {font-family: 'Montserrat', sans-serif; color: #ffffff}
+
 
 body {
   margin: 0px;
@@ -21,9 +24,7 @@ header img {
 }
 
 .sectionHeaderText {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #70ff93
+
 }
 
 .sectionText {
