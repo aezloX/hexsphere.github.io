@@ -1,8 +1,14 @@
+@font-face {font-family: Nexa-Light; src: url(Nexa_light.otf); font-family: Nexa-Bold; src: url(Nexa_Bold.otf);}
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
 #welcome {background-color: #56445D; padding-top:0; margin-bottom:0}
 #welcome h2 {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #70ff93}
-#welcome p {font-family: 'Montserrat', sans-serif; color: #70ff93}
+#welcome p {font-family: 'Montserrat', sans-serif; font-weight: lighter;  color: #ffffff;}
+
+html {
+  padding: 0px;      
+  box-sizing: border-box;
+}
 
 body {
   margin: 0px;
@@ -17,8 +23,9 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 header img {
-  height: 58px;
+  height: 50px;
 }
 
 .svg-image {
@@ -80,7 +87,6 @@ a {
 }
 
     a:hover {
-        box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
         transform: scale(1.02);
         text-decoration: none;
             }
@@ -94,7 +100,7 @@ a {
             cursor:              pointer;
             text-align:          center;
             font-weight:         lighter;
-            padding:             16px 32px;
+            padding:             12px 18px;
             font-size:           16px;
             margin:              18px 6px;
             transition-duration: 0.4s;
