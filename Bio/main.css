@@ -3,7 +3,10 @@
 #aboutMe {background-color: #56445D; padding-top:0; margin-bottom:0;}
 #aboutMe h2 {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #70ff93}
 #aboutMe p {font-family: 'Montserrat', sans-serif; color: #ffffff}
-#aboutMe a {font-family:         'Montserrat', sans-serif;
+#aboutMe a 
+
+#buttons {background-color: #56445D; padding-top:0; margin-bottom:0;}
+#buttons a {font-family:         'Montserrat', sans-serif;
             display:             inline-block;
             background-color:    #65ea85;
             color:               #ffffff;
@@ -15,7 +18,8 @@
             font-size:           16px;
             margin:              22px 2px;
             transition-duration: 0.4s;
-            border-radius:       80px;}
+            border-radius:       80px;
+           }
 
 body {
   margin: 0px;
