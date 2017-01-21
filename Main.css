@@ -6,13 +6,23 @@ html {
   box-sizing: border-box;
 }
 
+header {
+  width: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header img {
+  height: 50px;
+}
+
 body {
   margin: 0px;
   padding: 0px;
   text-align: center;
   background-color: #56445D;
-
 }
+
 
 #welcome {background-color: #56445D; padding-top:0; margin-bottom:0}
 #welcome h2 {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #70ff93}
@@ -31,36 +41,16 @@ body {
             transition-duration: 0.4s;
             border-radius:       80px;
            }
+#welcome a {text-decoration: none; backface-visibility: visible; transition: all .2s ease-out;}
+#welcome a:hover {transform: scale(1.02); text-decoration: none;}
 
-header {
-  width: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 
-header img {
-  height: 50px;
-}
 
 .contentDiv p {
   box-sizing: border-box;
-  width: 11;
+  width: 400;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
 }
 
-a {
-    text-decoration: none;
-    backface-visibility: visible;
-    transition: all .2s ease-out;
-}
-
-    a:hover {
-        transform: scale(1.02);
-        text-decoration: none;
-            }
-
-.contentDiv {
-    
-}
