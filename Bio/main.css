@@ -3,27 +3,33 @@
 #aboutMe {background-color: #56445D; padding-top:0; margin-bottom:0;}
 #aboutMe h2 {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #70ff93}
 #aboutMe p {font-family: 'Montserrat', sans-serif; color: #ffffff}
-#aboutMe a {position: relative; color: #cccccc; text-decoration: none;}
-#aboutMe a:before {content: ""; position: absolute; width: 100%; height: 2px; bottom: 0; left: 0; background-color: #cccccc; visibility: hidden; -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transition: all 0.3s ease-in-out 0s; transition: all 0.3s ease-in-out 0s;}
+#aboutMe a {position: relative; color: #f26c5a; text-decoration: none;}
+#aboutMe a:before {content: ""; position: absolute; width: 100%; height: 2px; bottom: 0; left: 0; background-color: #f26c5a; visibility: hidden; -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transition: all 0.3s ease-in-out 0s; transition: all 0.2s ease-in-out 0s;}
 #aboutMe a:hover:before {visibility: visible; -webkit-transform: scaleX(1); transform: scaleX(1);}
 
-#buttons {background-color: #56445D; padding-top:0; margin-bottom:0;}
-#buttons a {font-family:         'Montserrat', sans-serif;
-            display:             inline-block;
-            background-color:    #65ea85;
-            color:               #ffffff;
-            text-transform:      uppercase;
-            cursor:              pointer;
-            text-align:          center;
-            font-weight:         lighter;
-            padding:             10px 32px;
-            font-size:           16px;
-            margin:              22px 2px;
-            transition-duration: 0.4s;
-            border-radius:       80px;
-           }
-#buttons a {text-decoration: none; backface-visibility: visible; transition: all .2s ease-out;}
-#buttons a:hover {transform: scale(1.02); text-decoration: none;}
+.button {
+    font-family:         'Montserrat', sans-serif;
+    display:             inline-block;
+    background-color:    #65ea85;
+    color:               #ffffff;
+    text-transform:      uppercase;
+    cursor:              pointer;
+    text-align:          center;
+    font-weight:         lighter;
+    padding:             10px 32px;
+    font-size:           16px;
+    margin:              22px 2px;
+    transition-duration: 0.4s;
+    border-radius:       80px;
+    text-decoration: none; 
+    backface-visibility: visible; 
+    transition: all .2s ease-out;
+}
+
+    .button:hover {
+        transform: scale(1.02); 
+        text-decoration: none;
+    }
 
 body {
   margin: 0px;

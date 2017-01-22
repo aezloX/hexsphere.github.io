@@ -1,119 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
-.aboutMe {background-color: #56445D; padding-top:0; margin-bottom:0}
-
-.myProjects {background-color: #56445D; padding-top:0; margin-bottom:0}
-
 body {
   margin: 0px;
   padding: 0px;
   text-align: center;
   background-color: #56445D;
-
 }
 
 header {
   width: auto;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #56445D;
 }
+
 header img {
   height: 58px;
 }
 
-.sectionHeaderText {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #70ff93
-}
-
-.sectionText {
-    font-family: 'Montserrat', sans-serif;
-    color: #70ff93
-}
-
-
-.svg-image {
-    display: block;
-    width: 70em;
-    animation-name: fadein;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    float: right;
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 100;
-    }
-}
-
-#png-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    animation-name: fadein;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    z-index: -3;
-}
-
-.header-left {
-    float: right;
-}
-
-#dropdown-header-left {
-    float:   right;
-    right:   25em;
-    z-index: 1;
-}
-
-.imageText {
-    font-family:    'Montserrat', sans-serif;
-    font-size:      700%;
-    color:          #ffffff;
-    text-transform: uppercase; 
-    text-align:     center;
-    margin-top:     18%;
-}
-
-.TextItem {
-    font-family: 'Montserrat', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    backface-visibility: visible;
-    transition: all .2s ease-out;
-}
-
-    a:hover {
-        box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
-        transform: scale(1.02);
-        text-decoration: none;
-            }
+#myProjects {background-color: #56445D; padding-top:0; margin-bottom:0}
+#myProjects h2 {font-family: 'Montserrat', sans-serif; color: #65ea85; text-transform: uppercase; margin-bottom: 40px}
 
 .button {
-            font-family:         'Montserrat', sans-serif;
-            display:             inline-block;
-            background-color:    #65ea85;
-            color:               #ffffff;
-            text-transform:      uppercase;
-            cursor:              pointer;
-            text-align:          center;
-            font-weight:         lighter;
-            padding:             16px 32px;
-            font-size:           16px;
-            margin:              18px 6px;
-            transition-duration: 0.4s;
-            border-radius:       80px;
-        }
-
+    font-family:          'Montserrat', sans-serif;
+    display:              inline-block;
+    background-color:     #65ea85;
+    color:                #ffffff;
+    text-transform:       uppercase;
+    cursor:               pointer;
+    text-align:           center;
+    font-weight:          lighter;
+    padding:              10px 32px;
+    font-size:            16px;
+    margin:               22px 2px;
+    transition-duration:  0.4s;
+    border-radius:        80px;
+    text-decoration:      none; 
+    backface-visibility:  visible; 
+    transition:           all .2s ease-out;
+}
 
     .button:hover {
-        color: #ffffff
+        transform:          scale(1.02); 
+        text-decoration:    none;
     }
+
+.contentDiv iframe {
+    
+    margin: 30px;
+}
