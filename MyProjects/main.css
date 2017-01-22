@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@font-face {font-family: Nexa_Light; src: url(/Nexa_light.otf); font-family: Nexa_Bold; src: url(/Nexa_Bold.otf);}
+
 
 body {
   margin: 0px;
@@ -20,6 +22,28 @@ header img {
 
 #myProjects {background-color: #56445D; padding-top:0; margin-bottom:0}
 #myProjects h2 {font-family: 'Montserrat', sans-serif; color: #65ea85; text-transform: uppercase; margin-bottom: 40px}
+
+#socialMedia img {backface-visibility: visible; transition: all .2s ease-out;}
+#socialMedia img:hover {transform: scale(1.12);}
+#socialMedia h4 {font-family: Nexa_Bold; color: #ffffff;}
+#socialMedia strong {position: relative; color: #70ff93 ; text-decoration: none;}
+#socialMedia strong:before {content: ""; position: absolute; width: 100%; height: 2px; bottom: 0; left: 0; background-color: #70ff93; visibility: hidden; -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transition: all 0.3s ease-in-out 0s; transition: all 0.2s ease-in-out 0s;}
+#socialMedia strong:hover:before {visibility: visible; -webkit-transform: scaleX(1); transform: scaleX(1);}
+
+a {
+    text-decoration: none;
+}
+
+.contentFooter {
+    position: absolute; bottom: 1%; width: 100%;   
+}
+
+.contentFooter img {
+    box-sizing: border-box;
+    width: 35px;
+    margin-right: 5px; 
+    margin-left: 5px;
+}
 
 .button {
     font-family:          'Montserrat', sans-serif;
@@ -44,8 +68,3 @@ header img {
         transform:          scale(1.02); 
         text-decoration:    none;
     }
-
-.contentDiv iframe {
-    
-    margin: 30px;
-}
