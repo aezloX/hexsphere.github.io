@@ -1,5 +1,5 @@
-@font-face {font-family: Nexa_Light; src: url(Nexa_light.otf); font-family: Nexa_Bold; src: url(Nexa_Bold.otf);}
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@font-face {font-family: Nexa_Light; src: url(Nexa_light.otf); font-family: Nexa_Bold; src: url(Nexa_Bold.otf);}
 
 html {
     padding: 0px;      
@@ -38,7 +38,7 @@ body {
 #socialMedia strong:hover:before {visibility: visible; -webkit-transform: scaleX(1); transform: scaleX(1);}
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .contentFooter {
@@ -47,7 +47,7 @@ a {
 
 .contentFooter img {
     box-sizing: border-box;
-    width: 35px;
+    width: 42px;
     margin-right: 5px; 
     margin-left: 5px;
 }
