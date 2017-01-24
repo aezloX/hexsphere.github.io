@@ -2,25 +2,26 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
 html {
-  padding: 0px;      
-  box-sizing: border-box;
+    padding: 0px;      
+    box-sizing: border-box;
 }
 
 header {
-  width: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 header img {
-  height: 50px;
+    height: 50px;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  background-color: #56445D;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #56445D;
 }
 
 #welcome {background-color: #56445D; padding-top:0; margin-bottom:0}
