@@ -5,28 +5,76 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="imageZoom.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" sizes="16x16" href="/Favicons.ico/favicon-16x16.png">
 </head>
 <header>
-    <img src="logo.svg">
-<header/>
+    <img src="/logo.svg">
+</header>
 <body>
-    <div id="myProjects" class="contentDiv">
-        <h2>some of my art projects and UI designs</h2>
-        <div class="item">
-            <img src="http://cl.ly/image/0v15321t3W1a/pepsi.jpg" alt="pepsi" style="width: 540px; height: 548px;"/>
-        </div>
+    <div id="myProjects">
+        <h2>some of my art projects and ui designs</h2>
+            <ul class="image-grid">
+              <li class="image-grid__item">
+                    <a href="#" class="grid-item">
+                        <div class="grid-item__image" style="background-image: url(https://media.timeout.com/images/101602611/image.jpg)"></div>
+                        <div class="grid-item__hover"></div>
+                        <div class="grid-item__name">Los Angeles</div>
+                    </a>
+                </li>
+
+              <li class="image-grid__item">
+                    <a href="#" class="grid-item">
+                        <div class="grid-item__image" style="background-image: url(http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg)"></div>
+                        <div class="grid-item__hover"></div>
+                        <div class="grid-item__name">London</div>
+                    </a>
+                </li>	
+
+              <li class="image-grid__item">
+                    <a href="#" class="grid-item">
+                        <div class="grid-item__image" style="background-image: url(https://media.timeout.com/images/101484105/image.jpg)"></div>
+                        <div class="grid-item__hover"></div>
+                        <div class="grid-item__name">New York</div>
+                    </a>
+                </li>	
+
+              <li class="image-grid__item">
+                    <a href="#" class="grid-item">
+                        <div class="grid-item__image" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg)"></div>
+                        <div class="grid-item__hover"></div>
+                        <div class="grid-item__name">Hollywood</div>
+                    </a>
+                </li>	
+
+              <li class="image-grid__item">
+                    <a href="#" class="grid-item">
+                        <div class="grid-item__image" style="background-image: url(http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc)"></div>
+                        <div class="grid-item__hover"></div>
+                        <div class="grid-item__name">Dubai</div>
+                    </a>
+                </li>	
+
+              <li class="image-grid__item">
+                    <a href="#" class="grid-item">
+                        <div class="grid-item__image" style="background-image: url(http://blog.whitepages.com/wp-content/uploads/2015/04/san-franc.jpg)"></div>
+                        <div class="grid-item__hover"></div>
+                        <div class="grid-item__name">San Fransisco</div>
+                    </a>
+                </li>		
+            </ul>
         <a class="button" href="http://www.hexsphere.com/">return home</a>
-</body>
+    </div>     
+</body>    
 <footer id="socialMedia" class="contentFooter">
     <h4>Proudly designed and coded by <strong>Ethan Anderson</strong></h4>
     <a href="https://www.behance.net/Hexsphere_Designs" target="_blank">
-        <img src="/HTMLIcon1.svg">
+        <img src="/FooterIcon1.svg">
     </a>
     <a href="https://scratch.mit.edu/users/Hexsphere/" target="_blank">
-        <img src="/HTMLIcon2.svg">
+        <img src="/FooterIcon2.svg">
     </a>
     <a href="https://www.uplabs.com/ethanhanderson1" target="_blank">
-        <img src="/HTMLIcon3.svg">
+        <img src="/FooterIcon3.svg">
     </a>
 </footer>
