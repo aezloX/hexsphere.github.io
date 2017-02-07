@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 @font-face {font-family: Nexa_Light; src: url(/Nexa_light.otf); font-family: Nexa_Bold; src: url(/Nexa_Bold.otf);}
 
-#tutorials {background-color: #56445D; padding-top:0; margin-bottom:0}
-#tutorials h2 {font-family: 'Montserrat', sans-serif; color: #65ea85; text-transform: uppercase; margin-bottom: 40px}
-#tutorials h4 {font-family: 'Montserrat', sans-serif; color: #65ea85; text-transform: uppercase; display: inline-block;}
-#tutorials p {font-family: 'Montserrat', sans-serif; color: #767676;}
-#tutorials img {height: 188px; width: 225px; z-index: 9999;}
+#tutorialBody {position: absolute; width: 100%;}
+#tutorialBody h1 {font-family: 'Montserrat', sans-serif; color: #70ff93; font-size: 25px; box-sizing: border-box; width: 570; margin: 0; margin-left: auto; margin-right: auto; text-transform: uppercase; margin-bottom: 25px; margin-top: 5px;}
+#tutorialBody h2 {font-family: 'Montserrat', sans-serif; font-weight: lighter; color: white; font-size: 20px; box-sizing: border-box; width: 570; margin: 0; margin-left: auto; margin-right: auto;}
 
 #socialMedia img {backface-visibility: visible; transition: all .2s ease-out;}
 #socialMedia img:hover {transform: scale(1.12);}
@@ -19,7 +17,14 @@ a {
 }
 
 .contentFooter {
-    position: absolute; bottom: 1%; width: 100%;   
+    position: absolute; 
+    bottom: 1%; 
+    width: 100%;   
+}
+
+hr {
+    width: 850px; 
+    margin-top: 25px;
 }
 
 .contentFooter img {
@@ -29,26 +34,10 @@ a {
     margin-left: 5px;
 }
 
-
-.tutorialContainer {
-    text-align: center;
-    transition: all .2s ease-out;
-    background-color: white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    box-sizing: border-box;
-    display: inline-block;
-    margin: 10px;
-    padding: 0px;
-    width: 240px;
-    height: 280px;
+.contentDiv {
+    position: absolute; 
+    width: 100%;
 }
-  
-        .tutorialContainer:hover {        
-                box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
-                transform: scale(1.03); 
-        }
-
 
 .tutorialButton {
     font-family: 'Montserrat', sans-serif;
@@ -113,12 +102,4 @@ header {
 
 header img {
   height: 58px;
-}
-
-.contentDiv p {
-  box-sizing: border-box;
-  width: 750;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
