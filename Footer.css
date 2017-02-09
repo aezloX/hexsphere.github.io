@@ -1,33 +1,28 @@
-#socialMedia img {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@font-face {
+	font-family: Nexa_Light; src: url(Nexa_light.otf); 
+	font-family: Nexa_Bold; src: url(Nexa_Bold.otf);
 }
 
-#socialMedia img:hover,
-			 img:focus,
-			 img:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-}
-
-#socialMedia h4 {
+#socialMedia {
 	font-family: Nexa_Bold; color: #ffffff;
 }
-#socialMedia span {
-	position: relative; 
-	color: #70ff93 ; 
-	text-decoration: none;
+
+#socialMedia img {
+	width: 42px;
+	height: 42px;
+	background-color: #FFFFFF;
+	border-radius: 100%;
+	backface-visibility: visible; 
+	transition: .2s ease-out;
+	-webkit-transition: .2s ease-out;
 }
+
+#socialMedia img:hover {
+	transform: scale(1.12);
+	-webkit-transform: scale(1.12);
+}
+
 #socialMedia span:before {
 	content: ""; 
 	position: absolute; 
@@ -41,6 +36,12 @@
 	transform: scaleX(0); 
 	-webkit-transition: all 0.3s ease-in-out 0s; 
 	transition: all 0.2s ease-in-out 0s;
+}
+
+#socialMedia span { 
+	position: relative; 
+	color: #70ff93; 
+	text-decoration: none;
 }
 
 #socialMedia span:hover:before {

@@ -5,13 +5,6 @@
 #tutorialBody h1 {font-family: 'Montserrat', sans-serif; color: #70ff93; font-size: 25px; box-sizing: border-box; width: 570; margin: 0; margin-left: auto; margin-right: auto; text-transform: uppercase; margin-bottom: 25px; margin-top: 5px;}
 #tutorialBody h2 {font-family: 'Montserrat', sans-serif; font-weight: lighter; color: white; font-size: 20px; box-sizing: border-box; width: 570; margin: 0; margin-left: auto; margin-right: auto;}
 
-#socialMedia img {backface-visibility: visible; transition: all .2s ease-out;}
-#socialMedia img:hover {transform: scale(1.12);}
-#socialMedia h4 {font-family: Nexa_Bold; color: #ffffff;}
-#socialMedia strong {position: relative; color: #70ff93; text-decoration: none;}
-#socialMedia strong:before {content: ""; position: absolute; width: 100%; height: 2px; bottom: 0; left: 0; background-color: #70ff93; visibility: hidden; -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transition: all 0.3s ease-in-out 0s; transition: all 0.2s ease-in-out 0s;}
-#socialMedia strong:hover:before {visibility: visible; -webkit-transform: scaleX(1); transform: scaleX(1);}
-
 a {
     text-decoration: none;
 }

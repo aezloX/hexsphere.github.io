@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 @font-face {font-family: Nexa_Light; src: url(Nexa_light.otf); font-family: Nexa_Bold; src: url(Nexa_Bold.otf);}
 
+#welcome {background-color: #56445D; padding-top:0; margin-bottom:0}
+#welcome h2 {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #70ff93}
+#welcome p {font-family: 'Montserrat', sans-serif; font-weight: lighter;  color: #ffffff;}
+#welcome a {font-family: 'Montserrat', sans-serif; display: inline-block; background-color: #70ff93; color: #ffffff; text-transform: uppercase; cursor: pointer; text-align: right; font-weight: lighter; padding: 10px 32px; font-size: 16px; margin: 22px 2px; transition-duration: 0.4s; border-radius: 80px; text-decoration: none; backface-visibility: visible; transition: all .2s ease-out;}
+#welcome a:hover {transform: scale(1.03); text-decoration: none;}
+
 html {
     padding: 0px;      
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #56445D;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
@@ -16,26 +30,14 @@ header img {
     height: 50px;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    background-color: #56445D;
-}
-
-#welcome {background-color: #56445D; padding-top:0; margin-bottom:0}
-#welcome h2 {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #70ff93}
-#welcome p {font-family: 'Montserrat', sans-serif; font-weight: lighter;  color: #ffffff;}
-#welcome a {font-family: 'Montserrat', sans-serif; display: inline-block; background-color: #70ff93; color: #ffffff; text-transform: uppercase; cursor: pointer; text-align: right; font-weight: lighter; padding: 10px 32px; font-size: 16px; margin: 22px 2px; transition-duration: 0.4s; border-radius: 80px; text-decoration: none; backface-visibility: visible; transition: all .2s ease-out;}
-#welcome a:hover {transform: scale(1.03); text-decoration: none;}
-
 a {
   text-decoration: none;
 }
 
 .contentFooter {
-    position: absolute; bottom: 1%; width: 100%;   
+    position: absolute;
+	bottom: 1%; 
+	width: 100%;   
 }
 
 .contentFooter img {
