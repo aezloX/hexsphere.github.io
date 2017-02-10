@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
-@font-face {font-family: Nexa_Light; src: url(Nexa_light.otf); font-family: Nexa_Bold; src: url(Nexa_Bold.otf);}
 
 #welcome {background-color: #56445D; padding-top:0; margin-bottom:0}
 #welcome h2 {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #70ff93}

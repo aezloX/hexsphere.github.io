@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
-@font-face {font-family: Nexa_Light; src: url(/Nexa_light.otf); font-family: Nexa_Bold; src: url(/Nexa_Bold.otf);}
 
 #tutorialBody {position: absolute; width: 100%;}
 #tutorialBody h1 {font-family: 'Montserrat', sans-serif; color: #70ff93; font-size: 25px; box-sizing: border-box; width: 570; margin: 0; margin-left: auto; margin-right: auto; text-transform: uppercase; margin-bottom: 25px; margin-top: 5px;}
