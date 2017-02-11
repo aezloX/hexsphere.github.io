@@ -2,27 +2,9 @@
 
 #tutorials {background-color: #56445D; padding-top:0; margin-bottom:0; height: 440px;}
 #tutorials h2 {font-family: 'Montserrat', sans-serif; color: #65ea85; text-transform: uppercase; margin-bottom: 40px}
-#tutorials h4 {font-family: 'Montserrat', sans-serif; color: #65ea85; text-transform: uppercase; display: inline-block;}
+#tutorials h4 {font-family: 'Montserrat', sans-serif; color: #65ea85; text-transform: uppercase; display: inline-block; padding: 9.5px;}
 #tutorials p {font-family: 'Montserrat', sans-serif; color: #767676;}
-#tutorials img {height: 188px; width: 225px; z-index: 9999;}
-
-a {
-    text-decoration: none;
-}
-
-.contentFooter {
-    position: absolute; 
-	bottom: 1%; 
-	width: 100%;   
-}
-
-.contentFooter img {
-    box-sizing: border-box;
-    width: 35px;
-    margin-right: 5px; 
-    margin-left: 5px;
-}
-
+#tutorials img {height: 200px; width: 270px; z-index: 9999;}
 
 .tutorialContainer {
     text-align: center;
@@ -33,8 +15,8 @@ a {
     display: inline-block;
     margin: 10px;
     padding: 0px;
-    width: 240px;
-    height: 280px;
+    width: 270px;
+    height: 300px;
 }
   
         .tutorialContainer:hover {        
@@ -42,19 +24,18 @@ a {
                 transform: scale(1.03); 
         }
 
-
 .tutorialButton {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+    display: block;
+    width: 270px;
     text-decoration: none;
+    text-transform: uppercase;
     color: white;
     background-color: #70ff93;
-    display: block;
     padding: 16px;
+	margin-top: 19px;
     text-align: center;
-    text-transform: uppercase;
-    margin-top: 10px;
-    width: 240px;
     margin-right: auto;
     margin-left: auto;
     border-bottom-right-radius: 5px;
