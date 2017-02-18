@@ -49,10 +49,11 @@ a {
     }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  background-color: #56445D;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #56445D;
+	font-weight: bold;
 }
 
 header {
