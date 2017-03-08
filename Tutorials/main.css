@@ -1,10 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
-#tutorials {background-color: #56445D; padding-top:0; margin-bottom:0; height: 440px;}
-#tutorials h2 {font-family: 'Montserrat', sans-serif; color: #65ea85; text-transform: uppercase; margin-bottom: 40px}
-#tutorials h4 {font-family: 'Montserrat', sans-serif; color: #65ea85; text-transform: uppercase; display: inline-block; padding: 9.5px;}
-#tutorials p {font-family: 'Montserrat', sans-serif; color: #767676;}
-#tutorials img {height: 200px; width: 270px;}
+#tutorials {
+	background-color: #56445D; 
+	padding-top:0; 
+	margin-bottom:0; 
+	height: 440px;
+}
+
+#tutorials h2 {
+	font-family: 'Montserrat', sans-serif; 
+	color: #65ea85; 
+	text-transform: uppercase; 
+	margin-bottom: 40px
+}
+
+#tutorials h4 {font-family: 'Montserrat', sans-serif;
+	color: #65ea85;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 9.5px;
+}
+
+#tutorials p {
+	font-family: 'Montserrat', sans-serif; 
+	color: #767676;
+}
+
+#tutorials img {
+	height: 200px;
+	width: 270px;
+}
 
 .tutorialContainer {
     text-align: center;
