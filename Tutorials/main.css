@@ -1,4 +1,6 @@
 * {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
 }
@@ -9,16 +11,22 @@ body {
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 18px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 	text-align: center;
 	text-transform: uppercase;
 }
 
-#tutorials {
-	text-transform: uppercase;
-	margin-bottom: 20px;
+
+header {
+	width: auto;
+	padding: 30px 0;
+}
+
+header img {
+	height: 58px;
+	width: auto;
 }
 
 #tutorials h2 {
@@ -39,17 +47,16 @@ body {
 }
 
 .tutorial-container {
-	text-align: center;
-	-webkit-transition: all .2s ease-out;
-	transition: all .2s ease-out;
-	background-color: white;
-	border-radius: 5px 5px 0px 0px;
-	box-sizing: border-box;
 	display: inline-block;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 5px 5px 0px 0px;
 	margin: 10px;
 	padding: 0px;
 	width: 270px;
 	height: 280px;
+	transition: all .2s ease-out;
+	-webkit-transition: all .2s ease-out;
 }
 
 .tutorial-container .tutorial-button:link,
@@ -60,8 +67,7 @@ body {
 	width: 100%;
 	padding: 16px 0;
 	margin: 0;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
+	border-radius: 0 0 5px 5px;
 	-webkit-transition: scale 0.2s;
 	transition: scale 0.2s;
 }
@@ -80,9 +86,7 @@ body {
 	color: #ffffff;
 	padding: 10px 32px;
 	font-size: 16px;
-	margin: 26px;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
+	margin: 48px 0px;
 	border-radius: 50px;
 	-webkit-transition: all .2s ease-out;
 	transition: all .2s ease-out;
@@ -92,14 +96,4 @@ body {
 .button:active {
 	-webkit-transform: scale(1.02);
 	transform: scale(1.02);
-}
-
-header {
-	width: auto;
-	padding: 30px 0;
-}
-
-header img {
-	height: 58px;
-	width: auto;
 }
