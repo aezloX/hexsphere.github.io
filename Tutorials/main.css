@@ -1,124 +1,105 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html,
+body {
+	background-color: #56445D;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 #tutorials {
-	background-color: #56445D; 
-	padding-top:0; 
-	margin-bottom:0; 
-	height: 440px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
 #tutorials h2 {
-	font-family: 'Montserrat', sans-serif; 
-	color: #65ea85; 
-	text-transform: uppercase; 
+	color: #65ea85;
 	margin-bottom: 40px
 }
 
-#tutorials h4 {font-family: 'Montserrat', sans-serif;
+#tutorials h4 {
 	color: #65ea85;
-	text-transform: uppercase;
 	display: inline-block;
-	padding: 9.5px;
-}
-
-#tutorials p {
-	font-family: 'Montserrat', sans-serif; 
-	color: #767676;
+	margin: 25px 0;
 }
 
 #tutorials img {
 	height: 200px;
 	width: 270px;
+	margin: 0;
 }
 
 .tutorialContainer {
-    text-align: center;
-    transition: all .2s ease-out;
-    background-color: white;
-    border-radius: 5px 5px 0px 0px;
-    box-sizing: border-box;
-    display: inline-block;
-    margin: 10px;
-    padding: 0px;
-    width: 270px;
-    height: 280px;
-}
-  
-        .tutorialContainer:hover {        
-                box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
-                transform: scale(1.03); 
-        }
-
-.tutorialButton {
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-    display: block;
-    width: 270px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    background-color: #70ff93;
-    padding: 16px;
-	margin-top: 0;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    padding-left: 18px;
-    padding-right: 18px;
-    text-decoration: none; 
-    backface-visibility: visible; 
-    transition: all .2s ease-out;
+	text-align: center;
+	-webkit-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+	background-color: white;
+	border-radius: 5px 5px 0px 0px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 10px;
+	padding: 0px;
+	width: 270px;
+	height: 280px;
 }
 
-.button {
-    font-family:          'Montserrat', sans-serif;
-    display:              inline-block;
-    background-color:     #70ff93;
-    color:                #ffffff;
-    text-transform:       uppercase;
-    cursor:               pointer;
-    text-align:           center;
-    font-weight:          lighter;
-    padding:              10px 32px;
-    font-size:            16px;
-    margin:               26px;
-    transition-duration:  0.4s;
-    border-radius:        80px;
-    text-decoration:      none; 
-    backface-visibility:  visible; 
-    transition:           all .2s ease-out;
+.tutorialContainer .tutorialButton:link,
+.tutorialContainer .tutorialButton:visited {
+	display: inline-block;
+	background-color: #70ff93;
+	color: #fff;
+	width: 100%;
+	padding: 16px 0;
+	margin: 0;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-transition: scale 0.2s;
+	transition: scale 0.2s;
 }
 
-    .button:hover {
-        transform:          scale(1.02); 
-        text-decoration:    none;
-    }
+.tutorialContainer:hover,
+.tutorialContainer:active {
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
+}
 
-body {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  background-color: #56445D;
+.button:link,
+.button:visited {
+	display: inline-block;
+	background-color: #70ff93;
+	color: #ffffff;
+	padding: 10px 32px;
+	font-size: 16px;
+	margin: 26px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	border-radius: 50px;
+	-webkit-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+
+.button:hover,
+.button:active {
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
 }
 
 header {
 	width: auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
-  	background-color: #56445D;
-	font-weight: bold;
+	padding: 30px 0;
 }
 
 header img {
-  height: 58px;
-}
-
-.contentDiv p {
-  box-sizing: border-box;
-  width: 750;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
+	height: 58px;
+	width: auto;
 }
