@@ -1,18 +1,21 @@
 * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	text-decoration: none;
-	text-transform: none;
-	text-align: center;
 }
 
 html,
 body {
-	font-family: 'Montserrat', sans-serif;
 	background-color: #56445D;
 	color: #fff;
-	margin: 0px;
-	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 header {
@@ -84,8 +87,7 @@ img2 {
 
 hr {
 	width: 850px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin: 25px auto;
 }
 
 #buttons a:link,

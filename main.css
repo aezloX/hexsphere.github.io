@@ -1,15 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
 html,
 body {
-    background-color: #56445D;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
-	text-transform: uppercase;
-	text-decoration: none;
-    overflow-x: hidden;
+	background-color: #56445D;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 header {
@@ -21,22 +27,16 @@ header img {
 	height: 50px;
 }
 
-#welcome {
-	background-color: #56445D;
-	padding-top: 0;
-	margin-bottom: 0;
-	font-size: 18px;
-	font-weight: lighter;
-}
-
 #welcome h2 {
 	color: #70ff93;
 	font-size: 40px;
+	margin-bottom: 30px;
 }
 
 #welcome p {
 	text-transform: none;
 	color: #ffffff;
+	margin-bottom: 15px;
 }
 
 #welcome a:link,

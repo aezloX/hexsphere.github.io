@@ -18,6 +18,7 @@ footer,
 #socialMedia h4 {
 	font-family: Nexa_Bold; 
 	color: #ffffff;
+	margin-bottom: 15px;
 }
 
 #socialMedia a img {
@@ -38,6 +39,13 @@ footer,
 	-webkit-transform: scale(1.12);
 }
 
+#socialMedia span {
+	font-family: Nexa_Bold; 
+	text-decoration: none;
+	position: relative; 
+	color: #70ff93; 
+}
+
 #socialMedia span:before {
 	content: "";
 	position: absolute;
@@ -51,13 +59,6 @@ footer,
 	transform: scaleX(0);
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.2s ease-in-out;
-}
-
-#socialMedia span {
-	font-family: Nexa_Bold; 
-	text-decoration: none;
-	position: relative; 
-	color: #70ff93; 
 }
 
 #socialMedia span:hover:before,
