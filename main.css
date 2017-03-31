@@ -27,20 +27,20 @@ header img {
 	height: 50px;
 }
 
-#welcome h2 {
+h2 {
 	color: #70ff93;
 	font-size: 40px;
 	margin-bottom: 30px;
 }
 
-#welcome p {
+p {
 	text-transform: none;
-	color: #ffffff;
-	margin-bottom: 15px;
+	margin: 15px auto;
+	width: 50%;
 }
 
-#welcome a:link,
-#welcome a:visited {
+.welcome-link:link,
+.welcome-link:visited {
 	display: inline-block;
 	background-color: #7af598;
 	color: #ffffff;
@@ -52,7 +52,7 @@ header img {
 	transition: all 0.4s ease-out;
 }
 
-#welcome a:hover {
+a:hover {
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
 	text-decoration: none;
