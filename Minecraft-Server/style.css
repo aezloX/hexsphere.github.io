@@ -8,37 +8,68 @@
 html,
 body {
 	background-color: #56445D;
-	color: #fff;
+	color: #65EA85;
 	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 18px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 	text-align: center;
-	text-transform: uppercase;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box {
+	padding: 30px 0;
+	border-bottom: 1px solid #fff;
 }
 
 header {
-	width: 100%;
+	width: auto;
 	padding: 30px 0;
 }
 
 header img {
 	height: 58px;
+	width: auto;
 }
 
-#my-projects h2 {
-	color: #65ea85;
-	margin-bottom: 40px;
+h1 {
+	font-size: 170%;
+	margin-bottom: 25px;
 }
 
-.button {
+h2 {
+	font-size: 160%;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-size: 105%;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 90%;
+	color: #fff;
+	text-transform: none;
+	margin-bottom: 25px;
+}
+
+
+.button:link,
+.button:visited {
 	display: inline-block;
 	background-color: #65ea85;
 	color: #fff;
 	padding: 10px 32px;
 	font-size: 16px;
-	margin: 22px 0;
+	margin: 0 0 25px 0;
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
 	border-radius: 80px;
@@ -46,7 +77,8 @@ header img {
 	transition: all .2s ease-out;
 }
 
-.button:hover {
+.button:hover,
+.button:active {
 	-webkit-transform: scale(1.02);
 	transform: scale(1.02);
 }
