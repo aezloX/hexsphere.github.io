@@ -27,7 +27,7 @@ header img {
 }
 
 #tutorialBody h1 {
-	color: #70ff93;
+	color: #6FFF93;
 	font-size: 25px;
 	text-transform: uppercase;
 	margin-bottom: 25px;
@@ -45,7 +45,7 @@ header img {
 
 #tutorialBody a {
 	position: relative;
-	color: #70ff93;
+	color: #6FFF93;
 	text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ header img {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #70ff93;
+	background-color: #6FFF93;
 	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
@@ -91,7 +91,7 @@ hr {
 #buttons a:link,
 #buttons a:visited {
 	display: inline-block;
-	background-color: #70ff93;
+	background-color: #6FFF93;
 	color: #ffffff;
 	padding: 10px 32px;
 	margin: 26px;

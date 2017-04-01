@@ -46,7 +46,7 @@ footer,
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #70ff93;
+	background-color: #6FFF93;
 	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
@@ -59,7 +59,7 @@ footer,
 	font-family: Nexa_Bold; 
 	text-decoration: none;
 	position: relative; 
-	color: #70ff93; 
+	color: #6FFF93; 
 }
 
 #socialMedia span:hover:before,

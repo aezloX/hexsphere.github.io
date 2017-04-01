@@ -28,7 +28,7 @@ header img {
 }
 
 h2 {
-	color: #70ff93;
+	color: #6FFF93;
 	margin: 25px 0;
 }
 
@@ -40,7 +40,7 @@ p {
 
 a {
 	position: relative;
-	color: #70ff93;
+	color: #6FFF93;
 }
 
 .about-me a:before {
@@ -50,7 +50,7 @@ a {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #70ff93;
+	background-color: #6FFF93;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transition: all 0.2s ease-in-out 0s;

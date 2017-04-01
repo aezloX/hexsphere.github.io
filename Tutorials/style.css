@@ -62,7 +62,7 @@ header img {
 .tutorial-container .tutorial-button:link,
 .tutorial-container .tutorial-button:visited {
 	display: inline-block;
-	background-color: #70ff93;
+	background-color: #6FFF93;
 	color: #fff;
 	width: 100%;
 	padding: 16px 0;
@@ -82,7 +82,7 @@ header img {
 .button:link,
 .button:visited {
 	display: inline-block;
-	background-color: #70ff93;
+	background-color: #6FFF93;
 	color: #ffffff;
 	padding: 10px 32px;
 	font-size: 16px;
