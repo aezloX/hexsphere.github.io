@@ -55,8 +55,8 @@ header img {
 	padding: 0px;
 	width: 270px;
 	height: 280px;
-	transition: all .2s ease-out;
 	-webkit-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 }
 
 .tutorial-container .tutorial-button:link,

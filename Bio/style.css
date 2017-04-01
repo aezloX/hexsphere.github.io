@@ -27,25 +27,23 @@ header img {
 	height: 58px;
 }
 
-#aboutMe h2 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
+h2 {
 	color: #70ff93;
 	margin: 25px 0;
 }
 
-#aboutMe p {
+p {
 	text-transform: none;
 	width: 750px;
 	margin: 0 auto;
 }
 
-#aboutMe a {
+a {
 	position: relative;
 	color: #70ff93;
 }
 
-#aboutMe a:before {
+.about-me a:before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -53,15 +51,13 @@ header img {
 	bottom: 0;
 	left: 0;
 	background-color: #70ff93;
-	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transition: all 0.2s ease-in-out 0s;
 	transition: all 0.2s ease-in-out 0s;
 }
 
-#aboutMe a:hover:before {
-	visibility: visible;
+.about-me a:hover:before {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
@@ -71,14 +67,11 @@ header img {
 	display: inline-block;
 	background-color: #65ea85;
 	color: #ffffff;
-	text-transform: uppercase;
 	padding: 10px 32px;
-	font-size: 16px;
-	margin: 22px 2px;
+	margin: 22px 0;
 	border-radius: 80px;
-	text-decoration: none;
-	-webkit-transition: all .2s ease-out;
-	transition: all .2s ease-out;
+	-webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
 }
 
 .button:hover,
