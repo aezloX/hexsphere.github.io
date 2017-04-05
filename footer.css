@@ -5,21 +5,18 @@
 
 footer,
 .social-media-links {
-	padding-top: 50px;
+	font-family: Nexa_Bold;
+    position: absolute; 
 	font-weight: 300;
-	font-size: 18px; 
+	font-size: 18px;
+	bottom: 0; 
 	width: 100%;
 	text-decoration: none;
 	text-transform: none;
 }
 
-.sticky-footer, 
-footer .social-media-links {
-	position: absolute;
-	bottom: 0;
-}
-
-.social-media-links h4 { 
+.social-media-links h4 {
+	font-family: Nexa_Bold; 
 	color: #ffffff;
 	margin-bottom: 25px;
 }
@@ -31,8 +28,8 @@ footer .social-media-links {
 	margin: 0 5px;
 	text-decoration: none;
 	border-radius: 100%;
-	-webkit-transition: transform 0.2s;
-	transition: transform 0.2s;
+	transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
 }
 
 .social-media-links a img:hover, 
@@ -40,12 +37,6 @@ footer .social-media-links {
 	text-decoration: none;
 	transform: scale(1.12);
 	-webkit-transform: scale(1.12);
-}
-
-.social-media-links span { 
-	text-decoration: none;
-	position: relative; 
-	color: #6FFF93; 
 }
 
 .social-media-links span:before {
@@ -56,14 +47,24 @@ footer .social-media-links {
 	bottom: 0;
 	left: 0;
 	background-color: #6FFF93;
+	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
+.social-media-links span {
+	font-family: Nexa_Bold; 
+	text-decoration: none;
+	position: relative; 
+	color: #6FFF93; 
+}
+
 .social-media-links span:hover:before,
 .social-media-links span:active:before {
+	visibility: visible;
 	-webkit-transform: scaleX(1); 
 	transform: scaleX(1);
 }

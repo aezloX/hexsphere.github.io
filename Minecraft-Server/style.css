@@ -8,7 +8,7 @@
 html,
 body {
 	background-color: #56445D;
-	color: #6FFF93;
+	color: #65EA85;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -61,10 +61,11 @@ p {
 	margin-bottom: 25px;
 }
 
+
 .button:link,
 .button:visited {
 	display: inline-block;
-	background-color: #6FFF93;
+	background-color: #65ea85;
 	color: #fff;
 	padding: 10px 32px;
 	font-size: 16px;
