@@ -39,6 +39,10 @@ p {
 	width: 50%;
 }
 
+p:last-child {
+	margin-bottom: 25px;
+}
+
 .welcome-link:link,
 .welcome-link:visited {
 	display: inline-block;
