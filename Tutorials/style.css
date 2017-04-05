@@ -28,18 +28,18 @@ header img {
 	width: auto;
 }
 
-.tutorials h2 {
-	color: #65ea85;
+.tutorials-list h2 {
+	color: #6FFF93;
 	margin-bottom: 40px
 }
 
-.tutorials h4 {
-	color: #65ea85;
+.tutorials-list h4 {
+	color: #6FFF93;
 	display: inline-block;
 	margin: 25px 0;
 }
 
-.tutorials img {
+.tutorials-list img {
 	height: 200px;
 	width: 270px;
 	margin: 0;
@@ -47,28 +47,14 @@ header img {
 
 .tutorial-container {
 	display: inline-block;
-	box-sizing: border-box;
 	background-color: #fff;
-	border-radius: 5px 5px 0px 0px;
+	border-radius: 5px;
 	margin: 10px;
 	padding: 0px;
 	width: 270px;
-	height: 280px;
-	-webkit-transition: all .2s ease-out;
-	transition: all .2s ease-out;
-}
-
-.tutorial-container .tutorial-button:link,
-.tutorial-container .tutorial-button:visited {
-	display: inline-block;
-	background-color: #6FFF93;
-	color: #fff;
-	width: 100%;
-	padding: 16px 0;
-	margin: 0;
-	border-radius: 0 0 5px 5px;
-	-webkit-transition: scale 0.2s;
-	transition: scale 0.2s;
+	height: 100%;
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: -webkit-transform 0.2s;
 }
 
 .tutorial-container:hover,
@@ -76,6 +62,17 @@ header img {
 	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
+}
+
+.tutorial-button:link,
+.tutorial-button:visited {
+	display: inline-block;
+	background-color: #6FFF93;
+	color: #fff;
+	width: 100%;
+	padding: 16px 0;
+	margin-top: -5px;
+	border-radius: 0 0 5px 5px;
 }
 
 .button:link,
@@ -87,8 +84,8 @@ header img {
 	font-size: 16px;
 	margin: 48px 0px;
 	border-radius: 50px;
-	-webkit-transition: all .2s ease-out;
-	transition: all .2s ease-out;
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: -webkit-transform 0.2s;
 }
 
 .button:hover,
