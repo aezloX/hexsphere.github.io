@@ -5,9 +5,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>404 Error</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+	<title>404 Error</title>
+	
 	<link rel="apple-touch-icon" sizes="57x57" href="/Icons/Favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/Icons/Favicons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/Icons/Favicons/apple-icon-72x72.png">
@@ -25,19 +25,71 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/Icons/Favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			text-decoration: none;
+		}
+		
+		html,
+		body {
+			background-color: #56445D;
+			color: #fff;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+			font-size: 18px;
+			text-rendering: optimizeLegibility;
+			overflow-x: hidden;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		
+		header {
+			width: 100%;
+			padding: 30px 0;
+		}
+		
+		.hexsphere-logo {
+			height: 70px;
+			width: auto;
+		}
+		
+		.button:link,
+		.button:visited {
+			display: inline-block;
+			background-color: #6FFF93;
+			color: #fff;
+			padding: 10px 32px;
+			margin: 22px 0;
+			border-radius: 80px;
+			text-decoration: none;
+			-webkit-transition: -webkit-transform 0.2s;
+			transition: -webkit-transform 0.2s;
+		}
+		
+		.button:hover,
+		.button:active {
+			-webkit-transform: scale(1.03);
+			transform: scale(1.03);
+			text-decoration: none;
+		}
+	</style>
 </head>
 
 <body>
 	<header>
 		<img class="hexsphere-logo" src="/Icons/Hexsphere-Logo.svg" alt="Hexsphere Logo">
 	</header>
-	
-	<section class="section-welcome" style="border-bottom: 1.6px solid transparent;">
-		<h2>404 Error</h2>
-		<p>	
-			The page you are trying to go to doesn't exist... Either go back to the home page, or go back to the page you were just browsing 
+
+	<section style="border-bottom: 1.6px solid transparent;">
+		<h2 style="color: #6FFF93; font-size: 195%; margin: 25px 0;">404 Error</h2>
+		<p style="text-transform: none; margin: 15px auto; width: 750px;">
+			The page you are trying to go to doesn't exist... Either go back to the home page, or go back to the page you were just browsing
 		</p>
-		
+
 		<a class="button" href="http://www.hexsphere.com/">return home</a>
 	</section>
 </body>
