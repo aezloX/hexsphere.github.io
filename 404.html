@@ -8,22 +8,22 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
 	<title>404 Error</title>
 	
-	<link rel="apple-touch-icon" sizes="57x57" href="/Icons/Favicons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/Icons/Favicons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/Icons/Favicons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/Icons/Favicons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/Icons/Favicons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/Icons/Favicons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/Icons/Favicons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/Icons/Favicons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/Icons/Favicons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="/Icons/Favicons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/Icons/Favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/Icons/Favicons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/Icons/Favicons/favicon-16x16.png">
-	<link rel="manifest" href="/Icons/Favicons/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="Icons/Favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="Icons/Favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="Icons/Favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="Icons/Favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="Icons/Favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="Icons/Favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="Icons/Favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="Icons/Favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="Icons/Favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="Icons/Favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="Icons/Favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="Icons/Favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="Icons/Favicons/favicon-16x16.png">
+	<link rel="manifest" href="Icons/Favicons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/Icons/Favicons/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="Icons/Favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
 	<style>
@@ -42,7 +42,6 @@
 			font-weight: 300;
 			font-size: 18px;
 			text-rendering: optimizeLegibility;
-			overflow-x: hidden;
 			text-align: center;
 			text-transform: uppercase;
 		}
@@ -76,20 +75,47 @@
 			transform: scale(1.03);
 			text-decoration: none;
 		}
+		
+		.section-404-body {
+			border-bottom: 0;
+		}
+		
+		p {
+			position: relative;
+			text-transform: none; 
+			margin: 15px auto; 
+			width: 750px;
+		}
+		
+		h2 {
+			color: #6FFF93; 
+			font-size: 195%; 
+			margin: 25px 0;
+		}
+	</style>
+		<style>
+		@media only screen and (max-width: 780px) {
+			.hexsphere-logo {
+				height: 60px;
+				width: auto;
+			}
+			p {
+				width: 460px;
+			}
+		}
 	</style>
 </head>
 
 <body>
 	<header>
-		<img class="hexsphere-logo" src="/Icons/Hexsphere-Logo.svg" alt="Hexsphere Logo">
+		<img class="hexsphere-logo" src="Icons/Hexsphere-Logo.svg" alt="Hexsphere Logo">
 	</header>
 
-	<section style="border-bottom: 1.6px solid transparent;">
-		<h2 style="color: #6FFF93; font-size: 195%; margin: 25px 0;">404 Error</h2>
-		<p style="text-transform: none; margin: 15px auto; width: 750px;">
+	<section class="section-404-body">
+		<h2>404 Error</h2>
+		<p>
 			The page you are trying to go to doesn't exist... Either go back to the home page, or go back to the page you were just browsing
 		</p>
-
 		<a class="button" href="http://www.hexsphere.com/">return home</a>
 	</section>
 </body>
