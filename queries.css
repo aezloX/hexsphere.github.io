@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1200px) {
+	p {
+		font-size: 17px;
+	}
+	
+	.section-welcome p,
+	.section-bio p {
+		width: 97%;
+	}
+		
+	.button {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	h2 {
+		font-size: 34px;
+	}
+	
+	p {
+		font-size: 15px;
+	}
+	
+	.section-welcome p,
+	.section-bio p {
+		width: 97%;
+	}
+		
+	.underline-link:before {
+		width: 0;
+		height: 0;
+		width: 0;
+	}
+	
+	.underline-link {
+		border-bottom: 2px solid transparent;
+		-webkit-transition: border 500ms ease;
+		transition: border 500ms ease;
+	}
+	
+	.underline-link:hover {
+		border-bottom: 2px solid #6fff93;
+	}
+	
+	.button {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.hexsphere-logo {
+		height: 60px;
+	}
+	
+	h2 {
+		font-size: 24px;
+	}
+	
+	p {
+		font-size: 14px;
+	}
+	
+	.section-welcome p,
+	.section-bio p {
+		width: 95%;
+	}
+	
+	.underline-link:before {
+		width: 0;
+		height: 0;
+		width: 0;
+	}
+	
+	.underline-link {
+		border-bottom: 2px solid transparent;
+		-webkit-transition: border 500ms ease;
+		transition: border 500ms ease;
+	}
+	
+	.underline-link:hover {
+		border-bottom: 2px solid #6fff93;
+	}
+	
+	.button {
+		font-size: 12px;
+	}
+}
