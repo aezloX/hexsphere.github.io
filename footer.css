@@ -27,7 +27,7 @@ footer .social-media-links {
 .social-media-links a img {
 	background-color: #FFFFFF;
 	width: 42px;
-	height: 42px;
+	height: auto;
 	margin: 0 5px;
 	text-decoration: none;
 	border-radius: 100%;
@@ -35,8 +35,7 @@ footer .social-media-links {
 	transition: transform 0.2s;
 }
 
-.social-media-links a img:hover, 
-.social-media-links a img:active {
+.social-media-links a img:hover {
 	text-decoration: none;
 	transform: scale(1.12);
 	-webkit-transform: scale(1.12);
