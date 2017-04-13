@@ -27,6 +27,11 @@ header img {
 	height: 58px;
 }
 
+hr {
+	width: 85%;
+	margin: 25px auto;
+}
+
 h1 {
 	color: #6FFF93;
 	font-size: 170%;
@@ -38,13 +43,17 @@ p {
 	text-transform: none;
 	text-align: center;
 	font-size: 97%;
-	width: 760px;
+	width: 70%;
 	margin: 40px auto;
 }
 
-.img-small {
-	width: 60%;
+img {
+	width: 50%;
 	height: auto;
+}
+
+.section-tutorial img:nth-child(6) {
+	width: 30%;
 }
 
 .underline-link {
@@ -70,11 +79,6 @@ p {
 .underline-link:hover:before {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
-}
-
-hr {
-	width: 85%;
-	margin: 25px auto;
 }
 
 .button:link,

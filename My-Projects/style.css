@@ -27,7 +27,7 @@ header img {
 	height: 58px;
 }
 
-#my-projects h2 {
+h2 {
 	color: #6FFF93;
 	margin-bottom: 40px;
 }
@@ -50,6 +50,7 @@ header img {
 	-webkit-transform: scale(1.02);
 	transform: scale(1.02);
 }
+
 
 .image-grid {
 	display: -webkit-box;

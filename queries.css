@@ -85,6 +85,14 @@
 		width: 95%;
 	}
 	
+	section img {
+		width: 92%;
+	}
+	
+	.section-tutorial img:nth-child(6) {
+		width: 60%;
+	}
+	
 	.underline-link:before {
 		width: 0;
 		height: 0;
