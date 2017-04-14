@@ -28,6 +28,7 @@ header img {
 }
 
 hr {
+	border-style: solid;
 	width: 85%;
 	margin: 25px auto;
 }
