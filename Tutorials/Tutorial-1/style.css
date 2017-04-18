@@ -7,7 +7,7 @@
 
 html,
 body {
-	background-color: #56445D;
+	background-color: #36393E;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
@@ -23,8 +23,9 @@ header {
 	padding: 30px 0;
 }
 
-header img {
-	height: 58px;
+.hexsphere-logo {
+	height: 60px;
+	width: auto;
 }
 
 hr {
@@ -34,7 +35,7 @@ hr {
 }
 
 h1 {
-	color: #6FFF93;
+	color: #7ADFBB;
 	font-size: 170%;
 	margin-bottom: 25px;
 	margin-top: -5px;
@@ -59,7 +60,7 @@ img {
 
 .underline-link {
 	position: relative;
-	color: #6FFF93;
+	color: #7ADFBB;
 	text-decoration: none;
 }
 
@@ -70,7 +71,7 @@ img {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #6FFF93;
+	background-color: #7ADFBB;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transition: transform 0.2s ease-in-out;
@@ -85,12 +86,12 @@ img {
 .button:link,
 .button:visited {
 	display: inline-block;
-	background-color: #6fff93;
+	background-color: #7ADFBB;
 	color: #fff;
 	padding: 10px 18px;
-	margin: 26px;
-	text-transform: uppercase;
-	border-radius: 100px;
+	margin: 0;
+	border-radius: 80px;
+	text-decoration: none;
 	-webkit-transition: transform 0.2s;
 	transition: transform 0.2s;
 }
@@ -99,4 +100,5 @@ img {
 .button:active {
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
+	text-decoration: none;
 }

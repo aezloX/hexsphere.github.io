@@ -7,7 +7,7 @@
 
 html,
 body {
-	background-color: #56445D;
+	background-color: #36393E;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
@@ -40,14 +40,13 @@ header {
 	padding: 30px 0;
 }
 
-header img {
-	height: 58px;
+.hexsphere-logo {
+	height: 60px;
 	width: auto;
 }
 
-h1, 
-h2 {
-	color: #6fff93
+h1, h2 {
+	color: #7ADFBB;
 }
 
 h1 {
@@ -75,9 +74,10 @@ p {
 .button:link,
 .button:visited {
 	display: inline-block;
-	background-color: #6FFF93;
+	background-color: #7ADFBB;
 	color: #fff;
 	padding: 10px 18px;
+	margin: 0;
 	border-radius: 80px;
 	text-decoration: none;
 	 -webkit-transition: transform 0.2s;

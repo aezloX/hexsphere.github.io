@@ -7,7 +7,7 @@
 
 html,
 body {
-	background-color: #56445D;
+	background-color: #36393E;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
@@ -24,24 +24,24 @@ header {
 }
 
 .hexsphere-logo {
-	height: 70px;
+	height: 60px;
 	width: auto;
 }
 
 .tutorials-list h2 {
-	color: #6FFF93;
+	color: #7ADFBB;
 	margin-bottom: 40px
 }
 
 .tutorials-list h4 {
-	color: #6FFF93;
+	color: #7ADFBB;
 	display: inline-block;
 	margin: 25px 0;
 }
 
 .tutorials-list img {
-	height: 200px;
-	width: 270px;
+	width: auto;
+	height: 195px;
 	margin: 0;
 }
 
@@ -64,22 +64,20 @@ header {
 	transform: scale(1.03);
 }
 
-.tutorial-button:link,
-.tutorial-button:visited {
+.tutorial-button {
 	display: inline-block;
-	background-color: #6FFF93;
+	background-color: #7ADFBB;
 	color: #fff;
 	width: 100%;
 	padding: 16px 0;
-	margin-top: -5px;
 	border-radius: 0 0 5px 5px;
 }
 
 .button:link,
 .button:visited {
 	display: inline-block;
-	background-color: #6FFF93;
-	color: #ffffff;
+	background-color: #7ADFBB;
+	color: #fff;
 	padding: 10px 32px;
 	font-size: 16px;
 	margin: 48px 0px;

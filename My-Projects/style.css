@@ -7,7 +7,7 @@
 
 html,
 body {
-	background-color: #56445D;
+	background-color: #36393E;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
@@ -23,32 +23,34 @@ header {
 	padding: 30px 0;
 }
 
-header img {
-	height: 58px;
+.hexsphere-logo {
+	height: 60px;
+	width: auto;
 }
 
 h2 {
-	color: #6FFF93;
+	color: #7ADFBB;
 	margin-bottom: 40px;
 }
 
-.button {
+.button:link,
+.button:visited {
 	display: inline-block;
-	background-color: #6FFF93;
+	background-color: #7ADFBB;
 	color: #fff;
-	padding: 10px 32px;
-	font-size: 16px;
-	margin: 22px 0;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
+	padding: 10px 18px;
+	margin: 0;
 	border-radius: 80px;
-	-webkit-transition: all .2s ease-out;
-	transition: all .2s ease-out;
+	text-decoration: none;
+	 -webkit-transition: transform 0.2s;
+	transition: transform 0.2s;
 }
 
-.button:hover {
-	-webkit-transform: scale(1.02);
-	transform: scale(1.02);
+.button:hover,
+.button:active {
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
+	text-decoration: none;
 }
 
 
