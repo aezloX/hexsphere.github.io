@@ -88,7 +88,7 @@ footer,
 }
 
 ::-webkit-scrollbar-track {
-	border: 0 solid #36393E;
+	border: 0 solid #fff;
 }
 
 ::-webkit-scrollbar-track:horizontal {
@@ -100,7 +100,7 @@ footer,
 }
 
 ::-webkit-scrollbar-thumb {
-	border: 0px solid #fff;
+	border: 0px solid #7ADFBB;
 }
 
 ::-webkit-scrollbar-thumb:horizontal {

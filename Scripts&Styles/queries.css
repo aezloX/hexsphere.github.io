@@ -5,7 +5,7 @@
 		font-size: 97%;
 		width: 90%;
 	}
-		
+	
 	.button {
 		font-size: 16px;
 	}
@@ -18,7 +18,6 @@
 		width: 0%;
 	}
 }
-
 
 @media only screen and (max-width: 800px) {
 	h1 {
@@ -35,7 +34,7 @@
 		font-size: 90%;
 		width: 97%;
 	}
-		
+	
 	section img {
 		width: 92%;
 	}
@@ -63,12 +62,12 @@
 	.button {
 		font-size: 14px;
 	}
-		
+	
 	footer,
 	.social-media-links {
 		position: relative;
 		padding-top: 50px;
-		font-weight: 300; 
+		font-weight: 300;
 		width: 100%;
 		text-decoration: none;
 		text-transform: none;
@@ -83,7 +82,6 @@
 		height: auto;
 	}
 }
-
 
 @media only screen and (max-width: 375px) {
 	.hexsphere-logo {
@@ -142,7 +140,7 @@
 	.social-media-links {
 		position: relative;
 		padding-top: 50px;
-		font-weight: 300; 
+		font-weight: 300;
 		width: 100%;
 		text-decoration: none;
 		text-transform: none;
