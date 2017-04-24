@@ -28,6 +28,26 @@ footer,
 	margin-bottom: 25px;
 }
 
+.icon-scratch-logo,
+.icon-uplabs-logo,
+.icon-behance-logo {
+	background-color: #fff;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+.icon-scratch-logo:hover {
+	background-color: #f7a644;
+}
+
+.icon-uplabs-logo:hover {
+	background-color: #6cd1da;
+}
+
+.icon-behance-logo:hover {
+	background-color: #005cff
+}
+
 .social-media-links a img {
 	background-color: #fff;
 	width: 42px;
@@ -36,7 +56,10 @@ footer,
 	text-decoration: none;
 	border-radius: 100%;
 	-webkit-transition: transform 0.2s;
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: -webkit-transform 0.2s;
 	transition: transform 0.2s;
+	transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .social-media-links a img:hover {

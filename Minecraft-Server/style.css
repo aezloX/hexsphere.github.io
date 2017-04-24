@@ -24,10 +24,9 @@ body {
 }
 
 hr {
-	border-style: solid;
-	color: #fff;
+	border: solid 1px #fff;
 	margin: 55px auto;
-	width: 80%;
+	width: 85%;
 }
 
 .hr-small {

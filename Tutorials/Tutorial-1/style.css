@@ -29,7 +29,7 @@ header {
 }
 
 hr {
-	border-style: solid;
+	border: solid 1px #fff;
 	width: 85%;
 	margin: 25px auto;
 }
