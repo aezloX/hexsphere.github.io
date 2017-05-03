@@ -30,7 +30,11 @@ header {
 
 .tutorials-list h2 {
 	color: #7ADFBB;
-	margin-bottom: 40px
+	margin-bottom: 20px;
+}
+
+.tutorials-list p {
+	margin-bottom: 25px;
 }
 
 .tutorials-list h4 {
