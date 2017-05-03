@@ -57,6 +57,7 @@ h2 {
 }
 
 .button-info {
+	text-transform: none;
 	margin-top: 15px;
 }
 
