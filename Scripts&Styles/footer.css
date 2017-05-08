@@ -36,10 +36,7 @@ footer,
 	text-decoration: none;
 	border-radius: 100%;
 	-webkit-transition: transform 0.2s;
-	-webkit-transition: -webkit-transform 0.2s;
-	transition: -webkit-transform 0.2s;
 	transition: transform 0.2s;
-	transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .social-media-links a img:hover {
