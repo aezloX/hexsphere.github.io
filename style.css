@@ -5,17 +5,23 @@
 	text-decoration: none;
 }
 
+
 html,
 body {
 	background-color: #36393E;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 18px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
 }
 
 header {
@@ -26,10 +32,6 @@ header {
 .hexsphere-logo {
 	height: 70px;
 	width: auto;
-}
-
-section {
-	margin: 0 auto;
 }
 
 hr {
@@ -44,6 +46,11 @@ h2 {
 	margin: 25px auto;
 }
 
+.section-welcome .row p {
+	font-size: 16px;
+	width: 65%;
+}
+
 .section-welcome p {
 	text-transform: none;
 	margin: 25px auto;
@@ -54,11 +61,6 @@ h2 {
 	text-transform: none;
 	width: 50%;
 	margin: 10px auto;
-}
-
-.button-info {
-	text-transform: none;
-	margin-top: 15px;
 }
 
 .underline-link {
@@ -94,7 +96,7 @@ h2 {
 	margin: 0;
 	border-radius: 80px;
 	text-decoration: none;
-	 -webkit-transition: transform 0.2s;
+	-webkit-transition: transform 0.2s;
 	transition: transform 0.2s;
 }
 

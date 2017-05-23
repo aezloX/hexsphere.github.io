@@ -10,7 +10,7 @@ body {
 	background-color: #36393E;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 18px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
@@ -35,15 +35,16 @@ header {
 
 .tutorials-list p {
 	margin-bottom: 25px;
+	text-transform: none;
 }
 
-.tutorials-list h4 {
+.tutorial-container h4 {
 	color: #7ADFBB;
 	display: inline-block;
 	margin: 25px 0;
 }
 
-.tutorials-list img {
+.tutorial-container img {
 	width: auto;
 	height: 195px;
 	margin: 0;
