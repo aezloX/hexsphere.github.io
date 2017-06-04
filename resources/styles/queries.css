@@ -102,8 +102,11 @@
 
 	section p,
 	.section-welcome p,
-	.section-bio p {
-		font-size: 80%;
+	.section-bio p,
+	.section-title p,
+	.section-server-help p,
+	.section-tutorial p {
+		font-size: 14px;
 		width: 97%;
 	}
 
@@ -136,6 +139,30 @@
 		margin-bottom: 15px;
 	}
 
+	.section-tutorial img {
+		margin: 0 auto;
+		width: 95%;
+		height: auto;
+	}
+
+	#typewriter {
+		font-size: 4vw;
+		margin: 0;
+	}
+
+	.code-area {
+		font-size: 90%;
+		width: 97%;
+		min-width: 97%;
+		position: absolute;
+		width: 320px;
+		min-width: 320px;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
 	footer,
 	.social-media-links {
 		position: relative;
@@ -146,7 +173,8 @@
 		text-transform: none;
 	}
 
-	.social-media-links h4 {
+	.social-media-links .footer-text {
+		color: #fff;
 		margin-bottom: 15px;
 	}
 
