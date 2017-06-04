@@ -1,0 +1,157 @@
+@media only screen and (max-width: 1200px) {
+	section p,
+	.section-welcome p,
+	.section-bio p {
+		font-size: 97%;
+		width: 90%;
+	}
+
+	.button {
+		font-size: 16px;
+	}
+
+	section img {
+		width: 82%;
+	}
+
+	.section-tutorial img:nth-child(6) {
+		width: 0%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	h1 {
+		font-size: 160%;
+	}
+
+	h2 {
+		font-size: 150%;
+	}
+
+	section p,
+	.section-welcome p,
+	.section-bio p {
+		font-size: 90%;
+		width: 97%;
+	}
+
+	section img {
+		width: 92%;
+	}
+
+	.section-tutorial img:nth-child(6) {
+		width: 60%;
+	}
+
+	.underline-link:before {
+		width: 0;
+		height: 0;
+		width: 0;
+	}
+
+	.underline-link {
+		border-bottom: 2px solid transparent;
+		-webkit-transition: border 500ms ease;
+		transition: border 500ms ease;
+	}
+
+	.underline-link:hover {
+		border-bottom: 2px solid #7ADFBB;
+	}
+
+	.button {
+		font-size: 14px;
+	}
+
+	footer,
+	.social-media-links {
+		position: relative;
+		padding-top: 50px;
+		font-weight: 300;
+		width: 100%;
+		text-decoration: none;
+		text-transform: none;
+	}
+
+	.social-media-links h4 {
+		margin-bottom: 15px;
+	}
+
+	.social-media-links a img {
+		width: 38px;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.hexsphere-logo {
+		height: 60px;
+	}
+
+	h1 {
+		font-size: 140%;
+	}
+
+	h2 {
+		font-size: 130%;
+	}
+
+	h4 {
+		font-size: 100%;
+	}
+
+	section p,
+	.section-welcome p,
+	.section-bio p {
+		font-size: 80%;
+		width: 97%;
+	}
+
+	section img {
+		width: 92%;
+	}
+
+	.section-tutorial img:nth-child(6) {
+		width: 60%;
+	}
+
+	.underline-link:before {
+		width: 0;
+		height: 0;
+		width: 0;
+	}
+
+	.underline-link {
+		border-bottom: 2px solid transparent;
+		-webkit-transition: border 500ms ease;
+		transition: border 500ms ease;
+	}
+
+	.underline-link:hover {
+		border-bottom: 2px solid #7ADFBB;
+	}
+
+	.button {
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+
+	footer,
+	.social-media-links {
+		position: relative;
+		padding-top: 50px;
+		font-weight: 300;
+		width: 100%;
+		text-decoration: none;
+		text-transform: none;
+	}
+
+	.social-media-links h4 {
+		margin-bottom: 15px;
+	}
+
+	.social-media-links a img {
+		width: 32px;
+		height: auto;
+	}
+}

@@ -1,0 +1,86 @@
+@font-face {
+	font-family: Nexa_Light;
+	src: url(/resources/fonts/Nexa_light.otf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Nexa_Bold;
+	src: url(/resources/fonts/Nexa_Bold.otf);
+	font-weight: normal;
+}
+
+footer,
+.social-media-links {
+	font-family: 'Nexa_Bold', 'Montserrat', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	font-weight: 300;
+	font-size: 18px;
+	width: 100%;
+	height: auto;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.social-media-links .footer-text {
+	text-transform: none;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.social-media-links .footer-text-sticky {
+	margin: 0;
+}
+
+.social-media-links a img {
+	background-color: #fff;
+	width: 42px;
+	height: auto;
+	margin: 0 5px;
+	text-decoration: none;
+	border-radius: 100%;
+	-webkit-transition: transform 0.2s;
+	transition: transform 0.2s;
+}
+
+.social-media-links a img:hover {
+	text-decoration: none;
+	transform: scale(1.12);
+	-webkit-transform: scale(1.12);
+}
+
+.social-media-links span {
+	text-decoration: none;
+	position: relative;
+	color: #7ADFBB;
+}
+
+.social-media-links span:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2.6px;
+	bottom: -2px;
+	left: 0;
+	background-color: #7ADFBB;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.social-media-links span:hover:before,
+.social-media-links span:active:before {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+
+
+/* Sticky footer */
+
+.sticky-footer {
+	height: auto;
+	position: absolute;
+	bottom: 0;
+}
